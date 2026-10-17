@@ -1,0 +1,52 @@
+AYOUCHI — SITE WEB (version 3 · 15/10/2026)
+============================================
+
+1) VOIR LE SITE
+   - Dézippez le dossier, puis double-cliquez sur index.html (Chrome, Edge ou Firefox).
+   - Le dossier « media » doit toujours rester à côté de index.html.
+   - Faites défiler doucement : les animations suivent le défilement.
+
+2) CE QUI A CHANGÉ DANS LA V3
+   - La maasra est maintenant MODERNE et en 3D : la ligne de machines en inox est dessinée en 3D
+     en fond de page et la caméra suit l'olive en 8 étapes pendant le défilement :
+     trémie → effeuillage/lavage → broyeur → malaxeur → décanteur → séparateur → cuves inox → mise en bouteille.
+     Les machines tournent (ventilateur, marteaux, pales, décanteur…), les olives et l'huile circulent.
+     Les boutons 01 à 08 en bas permettent d'aller directement à une étape.
+   - Origine : Zegotta (زكوطة), province de Sidi Kacem.
+   - Huile d'olive extra vierge, acidité maximale 0,6 %.
+   - Nouvelle partie « Nos variétés » : Haouzia (الحوزية) et Menara (المنارة).
+   - Prix : 60 DH le litre. WhatsApp et téléphone : +212 6 63 58 76 53.
+
+3) CE QUI EST PROVISOIRE (à remplacer avec le client)
+   - Les photos et les vidéos sont des visuels PROVISOIRES créés par IA (ce ne sont pas les vrais oliviers de Zegotta).
+   - Les photos des variétés sont des illustrations : elles ne montrent pas exactement la Haouzia ou la Menara.
+   - La 3D montre une ligne moderne type. Si les machines du client sont différentes
+     (par exemple sans séparateur, ou avec 2 décanteurs), il suffit de me le dire et j'adapte la 3D.
+
+4) REMPLACER UNE VIDÉO OU UNE PHOTO
+   Gardez exactement le même nom de fichier :
+   media/video/ayouchi-huile.mp4          -> vidéo d'accueil (l'huile qui coule)
+   media/video/ayouchi-oliviers.mp4       -> les oliviers (section « Nos oliviers »)
+   media/video/ayouchi-couleur-huile.mp4  -> la couleur de l'huile
+   Le .jpg qui porte le même nom = l'image affichée avant que la vidéo démarre.
+   media/img/zegotta-paysage.jpg          -> grande photo de Zegotta
+   media/img/variete-haouzia.jpg / variete-menara.jpg -> photos des variétés
+   media/img/nature-*.jpg et galerie-*.jpg -> galerie « La nature de l'olive »
+   Conseil vidéo : MP4, 1280 x 720, 8 à 15 secondes, sans son, 2 à 4 Mo maximum.
+
+5) CHANGER LE NUMÉRO OU LE PRIX
+   Ouvrez index.html avec le Bloc-notes, Ctrl+F et cherchez : RÉGLAGES À MODIFIER
+   whatsapp: '212602635166'      -> 212 + numéro sans le 0
+   telephone / telephoneAffiche  -> numéro à appeler et numéro affiché
+   prixLitre: 60                 -> prix d'un litre en DH
+   Enregistrez (Ctrl+S) puis rechargez la page.
+
+6) METTRE LE SITE EN LIGNE (gratuit)
+   - Allez sur https://app.netlify.com/drop et glissez le dossier « ayouchi-site ».
+   - Créez un compte gratuit avant : sans compte, le lien disparaît au bout d'une heure.
+
+7) SOURCES DES INFORMATIONS DU SITE
+   - Extra vierge = acidité maximale 0,8 % : norme commerciale du Conseil oléicole international (COI).
+   - Haouzia et Menara : Catalogue mondial des variétés d'olivier (COI) et INRA Maroc.
+   - Zegotta : commune rurale de la province de Sidi Kacem, environ 10 km au nord de Volubilis.
+   - Volubilis : près d'une soixantaine d'huileries antiques recensées (site de Volubilis).
